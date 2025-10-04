@@ -33,7 +33,7 @@ npm run lint
 npm run build
 ```
 
-构建产物会输出到 `.vercel/output` 目录。
+构建产物会输出到默认的 `.next` 目录。
 
 ### Cloudflare Pages
 
