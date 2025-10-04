@@ -44,6 +44,8 @@ npm run build
 3. 将 **Build output directory** 设置为 `.vercel/output/static`。
 4. 保存后即可触发构建并自动生成 Workers Functions。
 
+> **提示**：`wrangler.toml` 已启用 `nodejs_compat` 兼容性标志，确保 Cloudflare Workers 运行时支持 Node.js API。
+
 如需本地预览 Cloudflare Pages 运行时，可执行：
 
 ```bash
