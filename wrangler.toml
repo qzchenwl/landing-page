@@ -1,0 +1,7 @@
+name = "landing-page"
+compatibility_date = "2024-09-02"
+pages_build_output_dir = ".vercel/output/static"
+
+[vars]
+NEXT_ON_PAGES = "1"
+NEXT_ON_PAGES_MINIFY_HTML = "true"
